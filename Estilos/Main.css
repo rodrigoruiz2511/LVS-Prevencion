@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+:root {
+  --naranja-base: #ea8010;
+}
+
+/*------------------Header-------------------*/
+header {
+  background: linear-gradient(rgb(0, 0, 0, 60%), rgb(0, 0, 0, 44%)),
+    url(../Imagenes/fondo.png);
+
+  background-size: 100%;
+
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*-------------------Navegacion--------------*/
+nav {
+  margin: 10px auto;
+  padding: 8px 0;
+  border-radius: 40rem;
+  border: solid 3px var(--naranja-base);
+  background: rgba(31, 30, 30, 0.57);
+  position: fixed;
+  backdrop-filter: blur(6px); /*aplica flitro*/
+  order: 1;
+}
+.acceso-nav {
+  font-family: "Nunito", sans-serif;
+  color: white;
+  font-size: 19px;
+  text-decoration: none;
+  padding: 19px;
+  margin: 8px;
+}
+.acceso-nav:hover {
+  color: var(--naranja-base);
+}
+/*------------------Marca Personal-----------*/
+#marca_personal {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 80px;
+  margin-top: 160px;
+  color: white;
+  font-size: 20px;
+  flex-direction: row-reverse;
+  align-items: center;
+  font-family: "Nunito", sans-serif;
+
+  position: relative;
+  order: -1;
+}
+#text-MP {
+  display: flex;
+  flex-direction: column;
+}
+#text-MP h1 {
+  font-size: 45px;
+  padding: 9px 0;
+}
+
+#text-MP h1 span {
+  color: rgb(249 255 0);
+}
+#text-MP p {
+  width: 44rem;
+  padding-bottom: 20px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+#foto-MP {
+  padding-left: 99px;
+}
+#foto-MP img {
+  height: 260px;
+  width: 287px;
+}

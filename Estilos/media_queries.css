@@ -1,0 +1,47 @@
+@media (max-width: 1329px) {
+  #foto-MP img {
+    height: 233px;
+    width: 248px;
+  }
+  #marca_personal {
+    font-size: 18px;
+  }
+}
+@media (max-width: 1209px) {
+  #foto-MP img {
+    height: 213px;
+    width: 228px;
+  }
+  #marca_personal {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1167px) {
+  header {
+    height: 100px;
+  }
+  #foto-MP img {
+    height: 203px;
+    width: 218px;
+  }
+  #marca_personal {
+    display: flex;
+    font-size: 13px;
+    flex-direction: column;
+    margin-top: 91px;
+  }
+  #foto-MP {
+    padding-left: 0px;
+    padding-right: 52px;
+  }
+  #foto-MP img {
+    height: 152px;
+    width: 164px;
+  }
+  #text-MP {
+    padding: 10px;
+    margin-right: -39px;
+    margin-left: -27px;
+  }
+}
