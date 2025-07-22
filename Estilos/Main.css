@@ -17,12 +17,8 @@
 header {
   background: linear-gradient(rgb(0, 0, 0, 60%), rgb(0, 0, 0, 44%)),
     url(../Imagenes/fondo.png);
-
   background-size: 100%;
-
-  height: 90vh;
-  width: 100%;
-  background-repeat: no-repeat;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,7 +26,7 @@ header {
 
 /*-------------------Navegacion--------------*/
 nav {
-  margin: 10px auto;
+  margin: 24px auto;
   padding: 8px 0;
   border-radius: 40rem;
   border: solid 3px var(--naranja-base);
@@ -52,26 +48,21 @@ nav {
 }
 /*------------------Marca Personal-----------*/
 #marca_personal {
-  display: flex;
-  flex-wrap: wrap;
-
-  flex-basis: 20%;
-  flex-shrink: 1;
-  margin: 80px;
-  margin-top: 160px;
   color: white;
-  font-size: 20px;
-  flex-direction: row;
-  align-items: center;
-
   font-family: "Poppins", sans-serif;
-
   position: relative;
   order: -1;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  position: relative;
+  top: 30vh;
+  margin: 80px 80px 80px 100px;
 }
 #text-MP {
   display: flex;
   flex-direction: column;
+  padding: 20 80 20 10;
 }
 #text-MP h2 {
   font-size: 35px;
@@ -80,7 +71,7 @@ nav {
 }
 
 #text-MP p {
-  width: 44rem;
+  font-size: 15px;
   padding-bottom: 20px;
   padding-top: 20px;
   letter-spacing: 3px;
@@ -89,6 +80,6 @@ nav {
   padding-right: 29px;
 }
 #foto-MP img {
-  height: 10em;
-  width: 20em;
+  height: 9em;
+  width: 17em;
 }
