@@ -83,3 +83,23 @@ nav {
   height: 9em;
   width: 17em;
 }
+/*------------------Servicios-----------*/
+#servicios {
+  padding: 20px;
+  background: #ecc49a;
+}
+#servicios h2 {
+  color: rgb(49, 24, 1);
+  font-family: "Poppins", sans-serif;
+  font-weight: 50em;
+}
+#contenido {
+  display: flex; /* Equivalente a flex */
+  flex-direction: row;
+}
+
+.tarjeta {
+  border: black 3px solid;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+}
